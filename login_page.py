@@ -46,3 +46,5 @@ class LoginPage:
 
     def isLoginPageMessageDisplayed(self):
         return self.browser.find_element(*self.LOGIN_PAGE_MESSAGE).is_displayed()
+    
+    
