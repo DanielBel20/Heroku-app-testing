@@ -1,4 +1,3 @@
-import self as self
 from selenium.webdriver.common.by import By
 class AddRemoveElementsPage:
     # locators

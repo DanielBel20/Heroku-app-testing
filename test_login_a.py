@@ -32,5 +32,5 @@ def test_login_a():
     assert "Secure Area" in secure_area.text, "Your login does not look successful."
     print("The 'Secure Area' message appears on the page so this is the third sign your login is successful!")
 
-    time.sleep(5)
+    time.sleep(3) # comentariu
     driver.quit()
